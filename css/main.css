@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+body{
+	font-family:'Oswald', sans-serif;
+}
+header{
+	background-color: white;
+	height: 200px;
+}
+nav{
+	overflow:hidden;
+    padding:10px;
+    position: relative;
+    top: 130px;
+    left: 35%;
+    width: 50%;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+ }
+ nav ul li{
+ 	float:left;
+    font-size:20px;
+    font-weight:bold;
+    margin-right:30px;
+    margin-left: 10px;
+    text-align:center;
+ }
+ nav ul li a{
+ 	color:#333333;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+ }
+ .first{
+ 	background: url("../images/background.jpg");
+	height: 460px;
+ }
+.logo{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	left: 400px;
+	top: -50px;
+}
+.titulo{
+	left: 200px;
+	position: relative;
+	top: 120px;
+	width: 900px;
+}
+.textologo{
+	font-size: 45px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.textologo1{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+}
+.biografia{
+	position: relative;
+	top: 70px;
+}
+.bio{
+	background: url("../images/tile1.png");
+	height: 900px;
+}
+.title{
+	font-size: 30px;
+	color: #A8258D;
+	width: 400px;
+	position: relative;
+	left: 45%;
+}
+.profile{
+	border: solid 1px #d3d2d1;
+	padding: 5px;
+	height: 200px;
+	width: 200px;
+}
+table{
+	width: 900px;
+	position: relative;
+	left: 150px;
+	top: 30px;
+}
+.dos{
+	text-align: left;
+	color: gray;
+	font-size: 14px;
+	font-family: Tahoma;
+	width: 700px;
+	padding: 10px;
+}
+.thing{
+	background-color:white;
+	height: 480px; 
+}
+h2{
+	font-size: 27px;
+}
+.title2{
+	font-size: 30px;
+	color: #A8258D;
+	width: 400px;
+	position: relative;
+	left: 35%;
+	top: 60px;
+
+}
+.one{
+	border-radius: 100%;
+	padding: 4px;
+	border: #8F03E3 solid 1px;
+	width: 200px;
+	height: 200px;
+	margin: 15px;
+	position: relative;
+	left: 140px;
+	top: 90px;
+
+}
+footer{
+	background: url("../images/tile2.png");
+	height: 300px;
+}
+.title3{
+	font-size: 36px;
+	color: #A8258D;
+	width: 400px;
+	position: relative;
+	top: 35px;
+	margin: 0px;
+	text-align: center;
+	left: 453px;
+
+}
+.logos img{
+	padding:25px;
+}
+.logos{
+	position: relative;
+	text-align: center;
+	top: 50px;
+}
